@@ -47,6 +47,10 @@ h3 {
     color: #707070;
 }
 
+.laptop-width-name {
+    display: none;
+}
+
 .navbar {
     display: flex;
     flex-direction: column;
@@ -146,17 +150,14 @@ span {
     text-align: left;
 }
 
-.s2 p {
-    margin: 25px;
-}
-
-.tablet-flex-area-1, .tablet-flex-area-2, .tablet-flex-area-3 {
+.s2 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-img {
-    max-width: 95%;
+.s2 div {
+    width: 40%;
 }
 
 .footerback {
@@ -185,6 +186,39 @@ footer li {
 
 @media (min-width: 1024px) {
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: auto;
+    background-color: #eaeaea;
+}
 
+#home {
+    display: none;
+}
+
+.laptop-width-name {
+    display: list-item;
+    margin-right: auto;
+}
+
+nav li {
+    width: auto;
+    background-color: #eaeaea;
+}
+
+.intro-container {
+    width: 70%;
+}
+
+.s2 div {
+    width: 30%;
+}
+
+#portfolio {
+    margin-left: 625px;
+}
 
 }
