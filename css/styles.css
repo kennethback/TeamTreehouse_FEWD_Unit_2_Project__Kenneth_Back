@@ -52,6 +52,8 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: darkslateblue;
+    padding: 10px;
 }
 
 li {
@@ -78,14 +80,44 @@ img {
 }
 
 span {
-    color: #333333;
+    color: teal;
+    font-weight: 700;
     margin: 0 10px;
 }
 
 .s3 {
+    padding-top: 50px;
+}
+
+.s3 h3 {
+    color: hotpink;
+}
+
+.s4 {
     background-color: whitesmoke;
     margin: 150px 0;
     padding-bottom: 30px;
+}
+
+.s4 p {
+    color: seagreen;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.footername, .footerback{
+    padding: 25px;
+    width: auto;
+    background-color: #eaeaea;
+}
+
+.bottom-nav {
+    display: none;
 }
 
 
@@ -96,11 +128,12 @@ span {
 
 .navbar {
     flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
 }
-    
-li {
-    background-color: #eaeaea;
-    width: auto;
+
+.intro-container {
+    padding-top: 50px;
 }
 
 .profile-img {
@@ -108,15 +141,50 @@ li {
     margin: 15px;
 }
 
-.blah {
+.s1 p {
     font-size: 1.5rem;
-    vertical-align: middle;
+    text-align: left;
 }
 
-/* .intro-container {
-    display: flex;
-} */
+.s2 p {
+    margin: 25px;
+}
 
-/* or just use another display flex? */
+.tablet-flex-area-1, .tablet-flex-area-2, .tablet-flex-area-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 95%;
+}
+
+.footerback {
+    display: none;
+}
+
+.bottom-nav {
+    display: list-item;
+    padding: 25px;
+    background-color: #eaeaea;
+}
+
+.footername {
+    margin-right: auto;
+}
+
+footer li {
+    width: auto;
+}
+
+}
+
+
+
+/* Laptop and Larger Screen Styles ----------------------------------------------------------- */
+
+@media (min-width: 1024px) {
+
+
 
 }
