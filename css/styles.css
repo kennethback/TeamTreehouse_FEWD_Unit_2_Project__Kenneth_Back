@@ -89,6 +89,10 @@ span {
     margin: 0 10px;
 }
 
+.s1 {
+    padding-top: 40px;
+}
+
 .s3 {
     padding-top: 50px;
 }
@@ -137,17 +141,29 @@ span {
 }
 
 .intro-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.profile-img {
-    float: right;
-    margin: 15px;
+.s1 img {
+    width: 45%;
+    order: 2;
 }
 
 .s1 p {
     font-size: 1.5rem;
     text-align: left;
+    width: 45%;
+    order: 1;
+}
+
+.s1 h2 {
+    width: 100%;
+    order: 3;
 }
 
 .s2 {
@@ -166,7 +182,7 @@ span {
 
 .bottom-nav {
     display: list-item;
-    padding: 25px;
+    padding: 25px 10px 15px 5px;
     background-color: #eaeaea;
 }
 
@@ -192,7 +208,6 @@ footer li {
     margin-top: 15px;
     justify-content: space-between;
     width: auto;
-    background-color: #eaeaea;
 }
 
 #home {
@@ -202,6 +217,7 @@ footer li {
 .laptop-width-name {
     display: list-item;
     margin-right: auto;
+    font-size: 2rem;
 }
 
 nav li {
@@ -215,10 +231,6 @@ nav li {
 
 .s2 div {
     width: 30%;
-}
-
-#portfolio {
-    margin-left: 625px;
 }
 
 }
