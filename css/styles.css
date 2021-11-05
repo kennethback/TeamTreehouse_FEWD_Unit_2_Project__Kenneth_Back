@@ -137,7 +137,7 @@ span {
 .navbar {
     flex-direction: row;
     width: 60%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .intro-container {
@@ -205,13 +205,15 @@ footer li {
 .navbar {
     display: flex;
     flex-direction: row;
-    margin-top: 15px;
     justify-content: space-between;
     width: auto;
 }
 
 #home {
-    display: none;
+    color: #eaeaea;
+    margin: 0px;
+    font-size: .01rem;
+    height: .01px;
 }
 
 .laptop-width-name {
